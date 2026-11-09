@@ -120,7 +120,7 @@
     }
 
     .dresscode-images .photo-box {
-        max-width: calc((265 / 500) * 100vw);
+        max-width: calc((325 / 500) * 100vw);
     }
 
     .our-sotry .story .icon img {

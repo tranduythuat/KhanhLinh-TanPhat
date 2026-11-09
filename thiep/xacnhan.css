@@ -306,11 +306,12 @@ hr {
 
 .lb6 {
   /* font-family: var(--font-gotham-light); */
-  font-family: var(--font-lora);
+  font-family: var(--font-aston);
   font-weight: 300;
   font-size: 38px;
-  text-transform: uppercase;
-  line-height: .8;
+  /* text-transform: uppercase; */
+  line-height: 1;
+  margin: 5%;
 }
 
 .jw {
@@ -430,7 +431,7 @@ hr {
 
 
 .img-center {
-  background-color: var(--text-color);
+  /* background-color: var(--text-color); */
   width: 100%;
   aspect-ratio: 500 / 712;
   margin-bottom: 20%;
@@ -444,7 +445,7 @@ hr {
 }
 
 .box-timeline .events {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   padding: 10% 0 20%;
@@ -504,8 +505,6 @@ hr {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .lb-timeline {
   font-family: var(--font-mtd);
@@ -668,7 +667,7 @@ hr {
 
 .dresscode-images .photo-box {
   position: absolute;
-  max-width: 265px;
+  max-width: 325px;
   width: 100%;
   aspect-ratio: 270 / 420;
   background-color: var(--text-color);
@@ -676,8 +675,9 @@ hr {
 }
 
 .dresscode-images .photo-box.photo1 {
-  top: 0;
-  left: 0;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dresscode-images .photo-box.photo2 {
@@ -698,7 +698,7 @@ hr {
 
 .lb-dresss {
   font-size: 40px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 
@@ -716,7 +716,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10%;
 }
 
 .lb-story {
@@ -727,6 +726,7 @@ hr {
 .lb-storyy {
   font-family: var(--font-mtd);
   font-size: 30px;
+  margin-bottom: 5%;
 }
 
 .our-sotry {
@@ -736,6 +736,8 @@ hr {
 .our-sotry .story {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 4% 0;
   max-width: 100%;
 }
@@ -752,21 +754,21 @@ hr {
   font-size: 12px;
   line-height: 1.2;
   margin: 2% 0 4%;
-  max-width: 78%;
+  text-align: center;
 }
 
 .our-sotry .story .img-story {
-  max-width: 300px;
+  /* max-width: 300px; */
   width: 100%;
-  aspect-ratio: 1 / 1.6;
+
+  /* aspect-ratio: 1 / 1.6; */
   background-color: var(--text-color);
   overflow: hidden;
 }
 
 .our-sotry .story .img-story img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 .story-2 {
@@ -810,7 +812,7 @@ hr {
   background-position: center;
   /* background-color: #103a5d; */
   max-width: 100%;
-  aspect-ratio: 500 / 550;
+  aspect-ratio: 500 / 600;
   color: #fff;
   padding-top: 5%;
   width: 100%;
@@ -823,8 +825,8 @@ hr {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/KimHoang-QuangTrung/1469_L1000481.webp') no-repeat 100% 30% / 100%;
-  filter: blur(13px) brightness(0.7);
+  background: url('../thiep/images/couple/couple_05.jpg') no-repeat 100% -12% / 100%;
+  filter: blur(8px) brightness(0.7);
   transform: scale(1.1);
   /* tránh viền trắng khi blur */
   z-index: -1;
@@ -832,10 +834,10 @@ hr {
 
 .til1 {
   font-family: 'SVN-GothamBook';
-  ;
   font-size: 10px;
   font-weight: 300;
   line-height: 2;
+  text-transform: uppercase;
 }
 
 .til2 {
