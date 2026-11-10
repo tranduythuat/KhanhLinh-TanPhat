@@ -10,12 +10,16 @@
     }
 
     .lb44,
-    .church,
-    .churchh,
+
     .til1,
     .dot2,
     .til-check {
         font-size: calc((10 / 500) * 100vw);
+    }
+
+    .church,
+    .churchh {
+        font-size: calc((11 / 500) * 100vw);
     }
 
     .lb22,
@@ -31,6 +35,7 @@
     .form-group .subtitle,
     .box-dress .subtext,
     .box-dress .subtext-en,
+    .box-timeline .events .event p,
     textarea {
         font-size: calc((12 / 500) * 100vw);
     }
